@@ -204,6 +204,7 @@ p {
     font-weight: 600;
     color: rgb(0, 80, 67);
     text-align: center;
+    padding: auto;
 }
 
 /*IMAGES*/
@@ -508,4 +509,10 @@ input[type=submit]{
 
 input[type=submit]:hover{
     background-color: rgb(247, 177, 188);
+}
+
+#aboutus{
+    text-align: center;
+    padding-top: 60px;
+    margin-left: auto;
 }
