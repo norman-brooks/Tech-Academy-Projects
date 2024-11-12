@@ -1,0 +1,33 @@
+/*Import link for the Sacramento & Sour Gummy font from fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab&family=Sacramento&display=swap');
+
+
+h1,
+h2 {
+    font-family: "Sacramento", sans-serif;
+    /*Font from 
+    fonts.google.com*/
+    font-size: 50px;
+}
+
+h3 {
+    font-family: "Roboto Slab";
+    /*Font from
+    fonts.google.com*/
+    font-size: 25px;
+}
+
+p {
+    font-family: "Playfair Display", serif;
+    /*Font from
+    fonts.google.com*/
+    font-size: 18px;
+}
+
+#contact {
+    text-align: center;
+}
+
+.email {}
