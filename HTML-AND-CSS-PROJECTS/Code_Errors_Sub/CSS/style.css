@@ -1,0 +1,27 @@
+/*This is for making all of the font dark blue*/
+h1, h2, h3, p1, p{
+    color: darkblue;
+}
+
+/*Makes the first paragraph in bold*/
+p1{
+    font-weight: bold;
+}
+
+/*Makes entire page background light blue*/
+body{
+    background-color: lightblue;
+}
+
+/*Centers text question regarding enrollment video*/
+#enroll{
+    text-align: center;
+}
+
+/*Border for Tech Academy Logo*/
+#logo{
+    border: 2px;
+    border-style: dashed;
+    color: red;
+    width: 1202px;
+}
