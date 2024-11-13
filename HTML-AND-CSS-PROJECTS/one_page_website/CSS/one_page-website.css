@@ -10,6 +10,7 @@ h1,h2
     /*Font from 
     fonts.google.com*/
     font-size: 50px;
+    color: #004225;
 }
 
 h3
@@ -32,4 +33,64 @@ p, li
     text-align: center;
 }
 
-.email {}
+/*CONTACT FORM CSS*/
+
+form{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input{
+    font-family: "Playfair Display", serif;
+    /*Font from fonts.google.com*/
+    font-size: 20px;
+    color: rgb(165, 165, 165);
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 6px;
+    padding: 1px;
+    margin: 10px 15px 10px 0px;
+    transition: 0.6s ease-out;
+}
+
+form label{
+    font-family: "Playfair Display", serif;
+    /*Font from fonts.google.com*/
+    font-size: 18px;
+}
+
+form input:focus{
+    border: 2px solid #004225;
+    color: black;
+    outline: none;
+    transition: 0.3s ease-out;
+}
+
+#Newsletter{
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer{
+    align-items: center;
+    margin: 0px -8px -8px -8px;
+    background-color: #004225;
+    border-top: 8px solid black;
+    bottom: 0;
+}
+
+
+table{
+    width: 100%;
+}
+
+
+
+td {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    width: 33%;
+}
